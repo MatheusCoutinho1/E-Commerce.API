@@ -1,13 +1,22 @@
 ﻿using E_commerce.API.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace E_commerce.API.Controllers
 {
     [Route("api/products")]
     public class ProductController : ControllerBase
     {
-        [HttpGet]
+        private readonly OpeningTimeOption _option;
+        public ProductController(IOptions<OpeningTimeOption> option, ExampleClass exampleClass)
+        {
+            exampleClass.Name = "Updated at ProductController";
 
+            _option = option.Value;
+        }
+
+
+        [HttpGet]
         public IActionResult Get(string query)
         {
 
@@ -15,7 +24,6 @@ namespace E_commerce.API.Controllers
         }
 
         [HttpGet("{id}")]
-
         public IActionResult GetById(int id)
         {
             return Ok();

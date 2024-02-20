@@ -31,3 +31,5 @@ C:\Users\Matheus\Desktop\E-commerce\E-commerce.API\obj\Debug\net7.0\refint\E-com
 C:\Users\Matheus\Desktop\E-commerce\E-commerce.API\obj\Debug\net7.0\E-commerce.API.pdb
 C:\Users\Matheus\Desktop\E-commerce\E-commerce.API\obj\Debug\net7.0\E-commerce.API.genruntimeconfig.cache
 C:\Users\Matheus\Desktop\E-commerce\E-commerce.API\obj\Debug\net7.0\ref\E-commerce.API.dll
+C:\Users\Matheus\Desktop\E-commerce\E-commerce.API\obj\Debug\net7.0\E_commerce.API.Properties.Resources.resources
+C:\Users\Matheus\Desktop\E-commerce\E-commerce.API\obj\Debug\net7.0\E-commerce.API.csproj.GenerateResource.cache
